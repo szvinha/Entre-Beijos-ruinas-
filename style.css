@@ -1,63 +1,47 @@
 
 body {
-  margin: 0;
-  font-family: 'Georgia', serif;
-  background-image: url('https://www.transparenttextures.com/patterns/aged-paper.png');
-  background-color: #f9f3e9;
-  color: #4b1e2f;
+    font-family: 'Georgia', serif;
+    background: #f3eee8 url('https://www.transparenttextures.com/patterns/old-mathematics.png');
+    color: #2f2f2f;
+    margin: 0;
+    padding: 0;
 }
-header {
-  margin-bottom: 2rem;
+
+header, footer {
+    background-color: #a38c7c;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
 }
-.hero {
-  background-image: url('https://images.unsplash.com/photo-1614850523450-5b938e0acdb8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80');
-  height: 300px;
-  background-size: cover;
-  background-position: center;
-  position: relative;
+
+header h1 {
+    margin: 0.2em 0;
 }
-.overlay {
-  background-color: rgba(0, 0, 0, 0.5);
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: #f4e9d8;
-  text-shadow: 1px 1px 4px #000;
-}
-h1 {
-  font-size: 3rem;
-  font-family: 'Georgia', serif;
-  margin: 0;
-}
-.subtitle {
-  font-style: italic;
-  font-size: 1.2rem;
-}
-nav {
-  text-align: center;
-  background-color: #4b1e2f;
-  padding: 0.8rem;
-}
+
 nav a {
-  color: #fbd7c4;
-  margin: 0 1rem;
-  text-decoration: none;
-  font-weight: bold;
+    margin: 0 1em;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
-nav a:hover {
-  color: #ffd700;
-}
+
 main {
-  padding: 2rem;
-  max-width: 800px;
-  margin: 0 auto;
+    padding: 2em;
 }
-.quote {
-  font-style: italic;
-  border-left: 4px solid #a0522d;
-  padding-left: 1rem;
-  margin: 2rem 0;
-  font-size: 1.4rem;
+
+h2 {
+    color: #5a3e36;
+}
+
+section {
+    margin-bottom: 2em;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 1.5em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+footer a {
+    color: #f9f9f9;
+    text-decoration: underline;
 }
