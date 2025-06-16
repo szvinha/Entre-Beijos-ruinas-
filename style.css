@@ -1,0 +1,63 @@
+
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-image: url('https://www.transparenttextures.com/patterns/aged-paper.png');
+  background-color: #f9f3e9;
+  color: #4b1e2f;
+}
+header {
+  margin-bottom: 2rem;
+}
+.hero {
+  background-image: url('https://images.unsplash.com/photo-1614850523450-5b938e0acdb8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80');
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #f4e9d8;
+  text-shadow: 1px 1px 4px #000;
+}
+h1 {
+  font-size: 3rem;
+  font-family: 'Georgia', serif;
+  margin: 0;
+}
+.subtitle {
+  font-style: italic;
+  font-size: 1.2rem;
+}
+nav {
+  text-align: center;
+  background-color: #4b1e2f;
+  padding: 0.8rem;
+}
+nav a {
+  color: #fbd7c4;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  color: #ffd700;
+}
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.quote {
+  font-style: italic;
+  border-left: 4px solid #a0522d;
+  padding-left: 1rem;
+  margin: 2rem 0;
+  font-size: 1.4rem;
+}
