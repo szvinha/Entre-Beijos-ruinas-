@@ -1,0 +1,76 @@
+body {
+    font-family: 'Georgia', serif;
+    background: #fdf9f3 url('https://www.transparenttextures.com/patterns/old-mathematics.png');
+    color: #2d1e2f;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #3e2a3d;
+    color: #fdf9f3;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+header .citacao {
+    font-style: italic;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    color: #e0cbd3;
+}
+
+nav {
+    margin-top: 1rem;
+}
+
+nav a {
+    color: #fdf9f3;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #f8c8dc;
+}
+
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+h2 {
+    color: #3e2a3d;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #3e2a3d;
+    color: #fdf9f3;
+    margin-top: 2rem;
+}
+
+.content {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+blockquote {
+    font-style: italic;
+    color: #5d3c49;
+    border-left: 4px solid #dcb4c6;
+    padding-left: 1rem;
+    margin: 1rem 0;
+}
